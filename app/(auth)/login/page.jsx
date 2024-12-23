@@ -46,10 +46,10 @@ export default function Page() {
   }, [user]);
 
   return (
-    <main className="w-full flex justify-center items-center bg-gray-300 md:p-24 p-10 min-h-screen">
-      <section className="flex flex-col gap-3">
+    <main className="w-full flex justify-center items-center bg-gray-300 md:p-24  min-h-screen">
+      <section className="flex flex-col w-full px-9 md:w-fit">
         <div className="flex justify-center">
-          <img className="h-12" src="/logo.png" alt="Logo" />
+          <img className="h-[150px]" src="/logo3.png" alt="Logo" />
         </div>
         <div className="flex flex-col gap-3 bg-white md:p-10 p-5 rounded-xl md:min-w-[440px] w-full">
           <h1 className="font-bold text-xl">Login With Email</h1>
@@ -91,7 +91,7 @@ export default function Page() {
               Login
             </Button>
           </form>
-          <div className="flex justify-between">
+          <div className="flex flex-col">
             <AuthContextProvider>
               <Link href={`/sign-up`}>
                 <button className="font-semibold text-sm text-blue-700">

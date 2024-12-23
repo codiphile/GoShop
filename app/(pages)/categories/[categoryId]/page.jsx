@@ -10,10 +10,12 @@ export default async function Page({ params }) {
     <main
       className="flex justify-center p-5 md:px-10
     md:py-5
-    w-full"
+    w-full min-h-screen"
     >
       <div className="max-w-[900px] p-5 flex flex-col gap-6">
-        <h1 className="text-center font-semibold text-4xl">{category.name}</h1>
+        <h1 className="text-center font-semibold text-2xl md:text-4xl ">
+          {category.name}
+        </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-center items-center justify-self-center  gap-4 md:gap-5 ">
           {products?.map((item) => {
             return <ProductCard product={item} key={item?.id} />;

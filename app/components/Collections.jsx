@@ -12,7 +12,7 @@ export default function Collections({ collections }) {
     infinite: true,
     speed: 500,
     slidesToShow: 2,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     responsive: [
       {
         breakpoint: 1024,

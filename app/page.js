@@ -186,6 +186,10 @@ const AnimatedDiv = dynamic(() => import("./components/AnimateDiv"), {
   ssr: false,
 });
 
+const envCheck = () => {
+  console.log(process.env.NEXT_PUBLIC_DOMAIN);
+};
+
 export default async function Home() {
   const [featuredProducts, collections, categories, products, brands] =
     await Promise.all([
@@ -204,6 +208,7 @@ export default async function Home() {
   return (
     <main className="w-screen h-screen overflow-x-hidden overflow-y-auto">
       <section className="flex flex-col w-screen">
+        {envCheck()}
         <AnimatedDiv fadeIn={fadeIn}>
           <Header />
         </AnimatedDiv>

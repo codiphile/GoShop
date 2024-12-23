@@ -71,7 +71,7 @@ export default function Sidebar() {
     <section className="sticky top-0 flex flex-col gap-10  bg-white border-r px-5 py-3 h-screen overflow-hidden md:w-[260px]">
       <div className="flex justify-center py-4">
         <Link href={"/"}>
-          <img className="h-[100px]" src="/logo3.png" alt="" />
+          <img className="h-[80px] md:h-[100px]" src="/logo3.png" alt="" />
         </Link>
       </div>
       <ul className="flex-1 h-full overflow-auto flex flex-col gap-4">

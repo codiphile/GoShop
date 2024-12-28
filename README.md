@@ -1,4 +1,4 @@
-# E Commerce Application
+# GoShop - Ecommerce
 
 This is a modern eCommerce application built with [Next.js](https://nextjs.org/), leveraging server-side rendering and dynamic imports for optimal performance.
 

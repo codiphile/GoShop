@@ -25,8 +25,8 @@ function Header() {
     <nav className="sticky top-0 z-50 bg-white bg-opacity-65 backdrop-blur-2xl py-3 px-1 md:py-2 md:px-12 border-b flex items-center justify-between max-h-14">
       <Link href={"/"}>
         <img
-          className="h-[6rem] md:h-[8rem] px-3"
-          src="/logo3.png"
+          className="h-[3rem] md:h-[3rem] px-3"
+          src="/logo1.svg"
           alt="Logo"
         />
       </Link>
